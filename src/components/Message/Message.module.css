@@ -1,0 +1,36 @@
+.message {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 0.5rem;
+  padding: 4rem 1rem;
+}
+
+.icon {
+  font-size: 2.5rem;
+  line-height: 1;
+}
+
+.title {
+  font-size: 1.25rem;
+}
+
+.text {
+  max-width: 48ch;
+  color: var(--text-muted);
+}
+
+.retry {
+  margin-top: 0.75rem;
+  padding: 0.6rem 1.25rem;
+  border-radius: var(--radius-sm);
+  background-color: var(--accent);
+  color: var(--accent-text);
+  font-weight: 600;
+  transition: background-color 0.15s ease;
+}
+
+.retry:hover {
+  background-color: var(--accent-hover);
+}
