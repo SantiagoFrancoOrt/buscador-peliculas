@@ -1,0 +1,7 @@
+.titulo {
+  margin-bottom: 1.25rem;
+  font-size: 1.4rem;
+
+  /* Un titulo largo no rompe el layout en pantallas chicas */
+  overflow-wrap: anywhere;
+}

@@ -1,0 +1,34 @@
+.wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+  max-width: 560px;
+  margin: 0 auto 2rem;
+}
+
+.icon {
+  position: absolute;
+  left: 1rem;
+  font-size: 1rem;
+  pointer-events: none;
+}
+
+.input {
+  width: 100%;
+  padding: 0.85rem 1rem 0.85rem 2.75rem;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  background-color: var(--surface);
+  box-shadow: var(--shadow);
+  transition: border-color 0.15s ease, box-shadow 0.15s ease;
+}
+
+.input::placeholder {
+  color: var(--text-muted);
+}
+
+.input:focus {
+  border-color: var(--accent);
+  outline: none;
+  box-shadow: var(--shadow-hover);
+}
