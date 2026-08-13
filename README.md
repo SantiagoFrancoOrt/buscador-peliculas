@@ -59,14 +59,11 @@ La regla que ordena todo: **ningún componente hace `fetch`**. Las peticiones
 viven en `api/tmdb.js`, los hooks manejan los estados y los componentes solo
 pintan.
 
-## Dos detalles que aprendí haciéndolo
-
-- **`AbortController` en cada petición.** Si seguís escribiendo, la búsqueda
-  anterior se cancela: así una respuesta lenta no puede pisar a la más reciente.
-- **La API key queda expuesta.** En una app 100 % frontend la clave termina
-  dentro del bundle. Para un proyecto personal es lo habitual; la solución real
-  sería un backend propio o una serverless function que haga de proxy.
-
+## Como se ve la pagina
 ---
 
-Este producto usa la API de TMDB pero no está avalado ni certificado por TMDB.
+![alt text](image.png)
+
+![alt text](image-1.png)
+
+ ![alt text](image-2.png)
