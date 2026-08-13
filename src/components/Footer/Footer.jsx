@@ -1,7 +1,6 @@
 import styles from './Footer.module.css'
 
-// TODO: reemplazar por la URL real del repositorio antes de publicar
-const REPO_URL = 'https://github.com/tu-usuario/buscador-peliculas'
+const REPO_URL = 'https://github.com/SantiagoFrancoOrt/buscador-peliculas'
 
 /**
  * TMDB pide que se aclare que la app usa su API sin estar avalada por ellos.

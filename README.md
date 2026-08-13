@@ -40,7 +40,7 @@ Necesitás Node 18 o superior.
 
 ```bash
 # 1. Clonar el repositorio
-git clone https://github.com/tu-usuario/buscador-peliculas.git
+git clone https://github.com/SantiagoFrancoOrt/buscador-peliculas.git
 cd buscador-peliculas
 
 # 2. Instalar las dependencias
