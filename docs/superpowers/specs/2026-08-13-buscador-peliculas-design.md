@@ -52,7 +52,8 @@ src/
 ├─ api/tmdb.js           # única capa que habla con TMDB
 ├─ hooks/
 │  ├─ useDebounce.js     # retrasa la búsqueda 400 ms
-│  ├─ useMovies.js       # data / loading / error de una petición
+│  ├─ useMovies.js       # data / loading / error del listado
+│  ├─ useMovie.js        # ídem para el detalle de una película
 │  ├─ useFavorites.js    # acceso al contexto de favoritos
 │  └─ useTheme.js        # claro/oscuro + persistencia
 ├─ context/FavoritesContext.jsx
