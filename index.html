@@ -9,6 +9,21 @@
       content="Buscador de peliculas hecho con React y Vite, con datos de la API de TMDB."
     />
     <title>Buscador de Peliculas</title>
+    <script>
+      // Aplica el tema antes de que se pinte la pagina, para que quien use el
+      // tema oscuro no vea un flash blanco mientras carga React.
+      ;(function () {
+        try {
+          var guardado = localStorage.getItem('buscador-peliculas:tema')
+          var oscuro = guardado
+            ? guardado === 'dark'
+            : window.matchMedia('(prefers-color-scheme: dark)').matches
+          document.documentElement.dataset.theme = oscuro ? 'dark' : 'light'
+        } catch (error) {
+          document.documentElement.dataset.theme = 'light'
+        }
+      })()
+    </script>
   </head>
   <body>
     <div id="root"></div>

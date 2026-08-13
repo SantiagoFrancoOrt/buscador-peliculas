@@ -1,4 +1,5 @@
 import { NavLink } from 'react-router-dom'
+import ThemeToggle from '../ThemeToggle/ThemeToggle.jsx'
 import styles from './Header.module.css'
 
 function Header() {
@@ -21,6 +22,7 @@ function Header() {
           >
             Favoritos
           </NavLink>
+          <ThemeToggle />
         </nav>
       </div>
     </header>
