@@ -1,6 +1,7 @@
 import { Link, useParams } from 'react-router-dom'
 import Spinner from '../components/Spinner/Spinner.jsx'
 import Message from '../components/Message/Message.jsx'
+import FavoriteButton from '../components/FavoriteButton/FavoriteButton.jsx'
 import { useMovie } from '../hooks/useMovie.js'
 import styles from './MovieDetail.module.css'
 
@@ -95,6 +96,8 @@ function MovieDetail() {
             <p className={styles.sinopsis}>
               {movie.overview || 'Esta pelicula todavia no tiene sinopsis cargada en TMDB.'}
             </p>
+
+            <FavoriteButton movie={movie} variante="texto" />
           </div>
         </div>
       </div>

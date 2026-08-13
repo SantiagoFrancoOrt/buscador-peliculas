@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom'
+import FavoriteButton from '../FavoriteButton/FavoriteButton.jsx'
 import styles from './MovieCard.module.css'
 
 /** Tarjeta de la grilla: poster, titulo, ano y puntaje. Lleva al detalle. */
@@ -33,6 +34,9 @@ function MovieCard({ movie }) {
           {movie.year && <p className={styles.year}>{movie.year}</p>}
         </div>
       </Link>
+
+      {/* Fuera del <Link> a proposito: un boton adentro de un enlace es HTML invalido */}
+      <FavoriteButton movie={movie} />
     </li>
   )
 }

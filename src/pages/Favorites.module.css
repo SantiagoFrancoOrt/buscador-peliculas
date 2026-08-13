@@ -1,0 +1,9 @@
+.titulo {
+  margin-bottom: 1.25rem;
+  font-size: 1.4rem;
+}
+
+.titulo span {
+  color: var(--text-muted);
+  font-weight: 400;
+}
