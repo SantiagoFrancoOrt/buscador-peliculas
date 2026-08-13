@@ -3,8 +3,6 @@
 Buscá películas, mirá su ficha completa y guardá tus favoritas.
 Hecho con **React + Vite**, con datos de la API de [TMDB](https://www.themoviedb.org/).
 
-🔗 **Demo:** _(pegar acá la URL de Vercel una vez publicado)_
-
 ## Por qué lo hice
 
 Salí del cine de ver *La Odisea* y *Spider-Man*, y me quedé con ganas de armar
